@@ -1,0 +1,98 @@
+body {
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: lightgray;
+    font-family: sans-serif;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem
+}
+
+h1 {
+    color: tomato;
+}
+
+main {
+    padding: 1rem 2rem 1rem 2rem
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    color: lightgray;
+    font-size: larger;
+}
+
+h4 {
+    font-size: larger;
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: lightgray;
+    padding: 0 .5rem 0 0;
+}
+
+p{
+    border-bottom: solid;
+    border-color: lightgray;
+    padding: 1rem 0 1rem 0;
+}
+
+.flex-container {
+    display: flex;
+    padding: none;
+    list-style-type: none;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+}
+
+.top-link{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.bottom {
+    display: flex;
+    color: tomato;
+    margin: 4rem;
+    padding: 0 0 2rem 0;
+}
+
+.bottom a{
+    color: tomato;
+    border-left-style: solid;
+    border-color: lightgray;
+    padding: 0 .5rem 0 .5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#continues {
+    display: flex; 
+    justify-content: right;
+    color: tomato;
+    font-weight: bold; 
+    padding: 2rem 0 1rem 0;
+}
+
+#copyright {
+    color: lightgray;
+    border: none;
+}
